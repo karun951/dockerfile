@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 
-RUN apt-get update 
-RUN apt-get install –y apache2
+RUN sudo apt-get update 
+RUN sudo apt install apache2 -y
 CMD [“echo”,”Image created”] 
